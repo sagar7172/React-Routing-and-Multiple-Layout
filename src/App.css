@@ -1,0 +1,122 @@
+body{
+  width: 100%;
+  margin: 0;
+  background: #fff;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.App{
+  width: 100%;
+  height: 100vh;
+}
+
+.Sidebar
+{
+  height: 100%;
+  width: 250px;
+  background: #2F4050;
+}
+
+.Sidebar ul {
+  margin: 0;
+  list-style-type: none;
+  list-style-position: initial;
+  padding: 0;
+}
+
+.Sidebar ul li a{
+  display: flex;
+  padding: 15px 10px;
+  color:#fff;
+  align-items: center;
+  text-decoration: none;
+}
+#active
+{
+  background: #1e2a35;
+}
+.sideNavicon
+{
+  margin-right: 7px;
+}
+
+.Sidebar ul li:hover{
+  background: #47627a;
+}
+
+.MainPage
+{
+    display: flex;
+    height: calc(100vh - 56px);
+}
+
+.MiddlePage
+{
+  padding: 20px;
+    background: #efefef;
+    height: calc(100% - 44px);
+}
+
+/* .card{
+  background: #fff;
+  box-shadow: 2px 2px 4px #ccc;
+  padding: 10px 15px;
+  height: 400px;
+} */
+
+header h1{
+  margin: 0;
+}
+
+footer{
+  padding: 9px;
+    background: #f2f3f4;
+    border-top: 1px solid #ccc;
+}
+
+footer p{
+  text-align: right;
+  margin: 0;
+}
+
+footer p a {
+  text-decoration: none;
+  font-style: italic;
+  color: #1f7ad0;
+} 
+
+.errorCard
+{
+  text-align: center;
+}
+
+.width200{
+  width: 200px;
+}
+
+.width100per{
+  width: 100%;
+}
+.chip{
+  padding: 0 12px 0 0;
+  margin-right: 15px;
+}
+
+.chip.chip-md {
+  height: 35px;
+  line-height: 35px;
+  border-radius: 21px;
+  }
+  .chip.chip-md img {
+  height: 35px;
+  width: 35px;
+  border-radius: 21px;
+  }
+
+  .blue.lighten-4 {
+    background-color: #bfdbf6  !important;
+}
+
+.card{
+  min-height: 400px;
+}
